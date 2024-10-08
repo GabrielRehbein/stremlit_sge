@@ -58,7 +58,7 @@ class UrlManager:
             )
         return url
     
-#TODO ver isso de base_url como uma variavel de ambiente, n gostei
+    
 def get_token():
     user_data: dict = {
         'username': settings.username,
